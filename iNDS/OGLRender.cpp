@@ -17,6 +17,11 @@
 	along with the this software.  If not, see <http://www.gnu.org/licenses/>.
 */
 
+/*  READ THIS  */
+// Commented out functions are functions that are overwritten by later
+// versions of OpenGL implementations. We will support OpenGLES 2.0
+// Still neet to fix refrences to 1D textures in toon map
+
 #include "OGLRender.h"
 
 #include <stdlib.h>
